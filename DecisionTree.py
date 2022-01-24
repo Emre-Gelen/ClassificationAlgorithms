@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from sklearn import tree
 
 dataset = pd.read_excel("otu.xlsx")
-test_size = .15
+test_size = .20
 max_depth = 4
 X = dataset.drop('Output', axis=1)
 y = dataset['Output']

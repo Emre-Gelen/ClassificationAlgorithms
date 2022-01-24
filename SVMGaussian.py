@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 
 dataset = pd.read_excel("otu.xlsx")
-test_size = .2
+test_size = .15
 X = dataset.drop('Output', axis=1)
 y = dataset['Output']
 
