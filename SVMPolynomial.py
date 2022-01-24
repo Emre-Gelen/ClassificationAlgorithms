@@ -21,4 +21,4 @@ y_pred = svclassifier.predict(X_test)
 print(classification_report(y_test,y_pred))
 
 score = svclassifier.score(X_test, y_test)
-print("The prediction of linear kernel accuracy is: {:0.2f}%".format(score * 100))
+print("The prediction of polynomial kernel accuracy is: {:0.2f}%".format(score * 100))
